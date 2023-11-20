@@ -1,0 +1,1439 @@
+Contact: https://physionet.org/about/#contact
+Description: A collection of datasets provided by the [MIT Laboratory for Computational
+  Physiology](http://lcp.mit.edu/)
+Documentation: https://physionet.org/about/database/
+License: https://physionet.org/content/adfecgdb/view-license/1.0.0/
+ManagedBy: '[MIT Laboratory for Computational Physiology](http://lcp.mit.edu/)'
+Name: PhysioNet Open Datasets
+Resources:
+- ARN: arn:aws:s3:::physionet-pds/adfecgdb
+  Description: Multichannel fetal electrocardiogram recordings obtained from 5 different
+    women in labor, between 38 and 41 weeks of gestation.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/aftdb
+  Description: ECG recordings created for the Computers in Cardiology Challenge 2004,
+    which focused on predicting spontaneous termination of atrial fibrillation.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ahadb
+  Description: Two ECG signals that were excluded from the 1980 American Heart Association
+    database.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ecg-arrhythmia
+  Description: A 12-lead electrocardiogram database for arrhythmia research covering
+    more than 10,000 patients
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/multi-gait-posture
+  Description: Multimodal dataset with 166k samples for vision-based applications
+    with a smart walker used in gait and posture rehabilitation. It is equipped with
+    a pair of Depth cameras with data synchronized with an inertial MoCap system worn
+    by the participant.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/aami-ec13
+  Description: The files in this set can be used for testing a variety of devices
+    thatmonitor the electrocardiogram. The recordings include both synthetic and realwaveforms.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/apnea-ecg
+  Description: Seventy ECG signals with expert-labelled apnea annotations and machine-generated
+    QRS annotations.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/pmd
+  Description: Pressure sensor data captured from 13 participants in various sleeping
+    postures.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/auditory-eeg
+  Description: Recording of electroencephalogram (EEG) signals with the aim to develop
+    an EEG-based Biometric. The Data includes resting-state and auditory stimuli experiments.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/autonomic-aging-cardiovascular
+  Description: This database contains resting recordings of ECG and continuous noninvasive
+    blood pressure of 1,104 healthy volunteers
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/wearable-exam-stress
+  Description: The data contains electrodermal activity, heart rate, blood volume
+    pulse, skin surface temperature, inter beat interval and accelerometer data recorded
+    during three exam sessions (midterm 1, midterm 2 and finals) as well as their
+    corresponding grades
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/propofol-anesthesia-dynamics
+  Description: Multimodal point process indices for heart rate variability and electrodermal
+    activity for 9 subjects who are undergoing a controlled propofol sedation experiment
+    where the concentration was increased and then decreased in stages.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/chfdb
+  Description: Long-term ECG recordings from 15 subjects with severe congestive heart
+    failure.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/bidmc
+  Description: ECG signals extracted from the MIMIC-II Matched Waveform Database,
+    with manual breath annotations added by annotators using impedance respiratory
+    signal.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/big-ideas-glycemic-wearable
+  Description: Glucose measurements and wrist-worn wearable sensor data from highnormoglycemic
+    participants.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/bpssrat
+  Description: This database contains continuous blood pressure recordings for 9 Dahl
+    SS ratsand 6 Dahl SS.13BN rats, under high and low salt conditions.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/body-sway-music-vr
+  Description: This data were intended to show that music manipulated to match VR
+    motion provided by an Oculus Rift head mounted display increased body sway when
+    standing still.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/bhx-brain-bounding-box
+  Description: The first version of this dataset was made available in the forum of
+    Kaggle competition 'RSNA Intracranial Hemorrhage Detection' (v1.0). Then minor
+    corrections were implemented (v1.1).
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/butqdb
+  Description: The database is intended for the development and objective comparison
+    of algorithms designed to assess the quality of ECG records. It also enables objective
+    comparison of results between authors.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/but-pdb
+  Description: BUT PDB is an ECG signal database with marked peaks of P waves created
+    for the development, and objective comparison of P wave detection algorithms.
+    The database consists of 50 2-minute 2-lead ECG signal records with various types
+    of pathology.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/butppg
+  Description: BUT PPG is a database created for the purpose of evaluating PPG signal
+    quality and estimation of heart rate. The data comprises 48 10-second recordings
+    of PPGs recorded by smartphone and associated ECG signals used for determination
+    of reference HR.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/capslpdb
+  Description: "The CAP Sleep Database is a collection of 108 polysomnographic recordingsregistered\
+    \ at the Sleep Disorders Center of the Ospedale Maggiore of Parma,Italy. The waveforms\
+    \ (contained in the .edf files\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/actes-cycloergometer-exercise
+  Description: Cardiorespiratory measurements acquired during 18 exercise tests performed
+    at French West Indies University
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/crisdb
+  Description: Data from the Cardiac Arrhythmia Suppression Trial (CAST), a study
+    designed to test the hypothesis that suppression of ventricular premature complexes
+    would improve survival.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/cerebral-perfusion-diabetes
+  Description: Dataset collected during a study on type 2 diabetes on brain blood
+    flow, vasoreactivity and functional outcomes (gait and balance) using TCD, MRI
+    perfusion and foot pressure distribution and gait measures.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/cerebral-vasoreg-diabetes
+  Description: Diabetes is a risk factor for cerebral hypoperfustion and microvascular
+    disease. This study assessed the effects of diabetic autonomic neuropathy with
+    OH on cerebral vasoregulation.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/cves
+  Description: Multimodal data from a large study investigating the effects of ischemic
+    stroke on cerebral vasoregulation.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/cded
+  Description: Type 2 diabetes increases risk for cerebrovascular disease, cognitive
+    and mobility decline in older people. This project evaluated relationship between
+    diabetes, inflammation cerebrovascular reactivity and functional outcomes.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/charisdb
+  Description: Multi-channel recordings of ECG, arterial blood pressure (ABP), and
+    intracranial pressure (ICP) of patients diagnosed with traumatic brain injury.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/chbmit
+  Description: "EEG recordings from pediatric subjects with intractable seizures,\
+    \ collected at the Children\u2019s Hospital Boston."
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/chexmask-cxr-segmentation-data
+  Description: CheXmask Database is a 676,803 uniformly annotated chest radiographs
+    with segmentation masks. Images were segmented using HybridGNet, with automatic
+    quality control indicated by RCA scores.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ecgcipa
+  Description: ECG effects of ranolazine, verapamil, lopinavir+ritonavir, chloroquine,
+    dofetilide, diltiazem, and dofetilide+diltiazem in a small clinical study.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mimic2-iaccd
+  Description: Dataset extracted from MIMIC-II for a tutorial on effectiveness of
+    indwelling arterial catheters in hemodynamically stable patients with respiratory
+    failure for mortality outcomes.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/consumer-grade-wearables
+  Description: Physiological data captured in experimental condition by three wearable
+    devices.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/cebsdb
+  Description: ECG and seismocardiogram data collected from 20 presumed healthy volunteers.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/culm
+  Description: Hand trajectory data collected from ten subjects as they performed
+    various upper-limb motor tasks.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/chf2db
+  Description: This database includes beat annotation files for 29 long-term ECG recordingsof
+    subjects aged 34 to 79, with congestive heart failure (NYHA classes I, II,and
+    III).
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/bp-graphene-bioimpedance
+  Description: Cuffless blood pressure data repository that includes raw time data
+    for 4-channel Bioimpedance signals using Graphene Tattoos from the wrist with
+    synchronized continuous blood pressure and PPG signals from 7 subjects
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/cpap-data-canterbury
+  Description: A pressure and flow dataset was collected from a trial of 30 adults
+    at the University of Canterbury undergoing CPAP therapy for a variety of instructed
+    breath rates at PEEP levels of 4cmH2O and 7cmH2O.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ctu-uhb-ctgdb
+  Description: 552 cardiotocography records collected between 2010 and 2012 at the
+    Czech Technical University and University Hospital in Brno.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/cuiless16
+  Description: A corpus of Concept Unique Identifier concepts taken from the SemEval2015
+    Task 14.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/cudb
+  Description: This database includes 35 eight-minute ECG recordings of human subjects
+    whoexperienced episodes of sustained ventricular tachycardia, ventricularflutter,
+    and ventricular fibrillation.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ecgdmmld
+  Description: ECG from 22 subjects for a study on response of hERG potassium channel
+    blocking drugs with and without the addition of late sodium or calcium channel
+    blocking drugs.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ecgrdvq
+  Description: ECGs of 22 subjects for a study aimed at comparing the effects of QT
+    prolonging drugs versus placebo on electrophysiological parameters.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ecg-fragment-high-risk-label
+  Description: Dataset derived from the MIT-BIH Malignant Ventricular Ectopy Database.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ecgiddb
+  Description: ECG recordings from 90 volunteers.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/eegmat
+  Description: The database contains EEG recordings of subjects before and during
+    theperformance of mental arithmetic tasks.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/eegmmidb
+  Description: EEG recordings obtained from 109 volunteers.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ltrsvp
+  Description: This project contains EEG data from 11 healthy participants upon rapidpresentation
+    of images through the Rapid Serial Visual Presentation (RSVP)protocol at speeds
+    of 5, 6, and 10 Hz.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/sleep-dep-hemo-cog
+  Description: We assessed the impact of 24-hour sleep deprivation on the global properties
+    of frontal lobe functional networks and on cognitive performance. fNIRS measurements
+    were carried out in the resting state and in response to a finger-tapping paradigm.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/tremordb
+  Description: Rest tremor velocity in the index finger of 16 subjects with Parkinson's
+    disease who receive chronic high frequency electrical deep brain stimulation.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/eicu-crd-demo
+  Description: An openly available subset of the eICU Collaborative Research Database.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ecg-spider-clip
+  Description: Dataset used for development of an algorithm for on-line anxiety level
+    detection from biosignals.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/eeg-eye-gaze-data
+  Description: The brain activity and eye gaze data were recorded from 25 participants
+    performing surgical tasks using a robot simulator. The performance score was created
+    by the simulator. Data can be used to evaluate surgical performance.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ephnogram
+  Description: An open-access database recorded during the EPHNOGRAM project, consisting
+    of simultaneous electrocardiogram (ECG) and phonocardiogram (PCG) recordings from
+    young healthy adults, during stress-test experiments.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/cardiac-accel-canine-porcine
+  Description: The dataset contains data recorded from epicardially attached accelerometer
+    to canines' and porcines' hearts. The data comprises of tri-axial acceleration
+    signals, left ventricular pressure (LVP), rate of change of LVP and in some cases
+    ECG as well.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/erpbci
+  Description: Data generated as part of a study aimed at identifying the factors
+    limiting the performance of brain-computer interfaces based on event-related potentials.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/edb
+  Description: Annotated excerpts of ambulatory ECG recordings from 79 subjects, designed
+    for evaluation of algorithms for analysis of ST and T-wave changes.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/earh
+  Description: Auditory Brainstem Response and Otoacoustic Emission recordings in
+    eight hearing impaired listeners.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/earndb
+  Description: Auditory Brainstem Response and Otoacoustic Emission recordings generated
+    as part of a study examining evoked potentials and loudness growth.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/emgdb
+  Description: "An electromyogram (EMG) is a common clinical test used to assess function\
+    \ ofmuscles and the nerves that control them. EMG studies are used to help in\
+    \ thediagnosis and management of disorders such a\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/eye-tracking-ecg
+  Description: The project aims at collecting a dataset using eye-tracking technology
+    to understand the 12-lead electrocardiogram interpretation visual behavior for
+    medical practitioners and students with different expertise levels.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/face-oral-temp-data
+  Description: Data for each subject include temperatures measured at 29 facial locations
+    over four rounds with two IRTs, oral temperatures measured with a thermometer
+    in two modes, subject demographics (gender, age, ethnicity), environmental conditions,
+    etc.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/fantasia
+  Description: ECG and respiration signals collected from 40 young and elderly subjects
+    during supine resting.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/fecgsyndb
+  Description: "The _FECGSYNDB_ is a large database of simulated adult and non-invasive\
+    \ fetalECG (NI-FECG) signals, which provides a robust resource that enablesreproducible\
+    \ research in the field. The data is gene\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/fpcgdb
+  Description: "The project collects a series of 26 fetal phonocardiographic (PCG)\
+    \ signalsfrom different pregnant women during the last months of their singletonphysiological\
+    \ pregnancies (gestational week between \u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/gaitdb
+  Description: Walking stride interval time series from 15 subjects.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/gaitndd
+  Description: Database of simulated adult and non-invasive fetal ECG signals.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/gaitpdb
+  Description: "This database contains measures of gait from 93 patients with idiopathic\
+    \ PD(mean age 66.3 years; 63% men), and 73 healthy controls (mean age 66.3years;\
+    \ 55% men). The database includes the vertica\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/gait-maturation-db
+  Description: "The data contained here are from 50 healthy children ranging in age\
+    \ from 40months to 163 months. Each data file is named with a subject identifier\
+    \ (1-50)and the subject's age (e.g., the file name 2\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/grabmyo
+  Description: Open-access dataset of electromyogram (EMG) recordings collected from
+    the wrist and forearm muscles of 43 people while they performed hand gestures.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/hmc-sleep-staging
+  Description: A collection of 151 whole-night PolySomnoGraphic (PSG) sleep recordings
+    from the Haaglanden Medisch Centrum (HMC, The Netherlands) sleep center containing
+    different traces of ExG activity and expert's scorings of sleep stages
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/heart-lung-segmentations-data
+  Description: Heart and lung segmentations for 200 MIMIC-CXR/MIMIC-CXR-JPG chest
+    x-rays and heart segmentations for 138 Montgomery County tuberculosis chest X-rays.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/meditation
+  Description: Heart rate time series for 5 different groups of healthy subjects performingmeditation
+    techniques.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/hbedb
+  Description: Force platform recordings from 163 subjects undergoing stabilography
+    tests.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/i-care
+  Description: The clinical and EEG data for this dataset originates from seven academic
+    hospitals in the U.S. and Europe led by investigators part of the International
+    Cardiac Arrest REsearch consortium (I-CARE).
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ehgdb
+  Description: This database consists of 122 16-electrode EHG recordings performed
+    on 45pregnant women. The recordings were performed between 2008 and 2010 inIceland.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/icentia11k-continuous-ecg
+  Description: This is a dataset of continuous raw electrocardiogram (ECG) signals
+    for representation learning containing 11 thousand patients and 2 billion labelled
+    beats.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/fetalheartsounddata
+  Description: The IIScFHSDB has 60 fetal phonocardiography recordings obtained in
+    a hospital setting with the objective to provide fPCG recordings with clinical
+    noise settings for development of signal processing algorithms for FHR determination
+    and denoising fPCG
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/icehg-ds
+  Description: The design and development of ICEHG DS was funded by the Slovenian
+    Research Agency (ARRS) under the research project Metabolic and inborn factors
+    of reproductive health, birth III.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mhd-effect-ecg-mri
+  Description: "ECG signals were acquired in various MRI scanners to enable the study\
+    \ of the magnetohydrodynamic (MHD) effect. The MHD effect, which is caused by\
+    \ an interaction of the blood flow and the MRI\u2019s high static magnetic field,\
+    \ superimposes the ECG signal."
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/in-gauge-and-en-gage
+  Description: "The project aims to understand occupants\u2019 behaviour, engagement,\
+    \ emotion, and comfort indoors with heterogeneous sensors and wearables."
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/eeg-eye-gaze-for-fls-tasks
+  Description: "Brain activity and eye gaze data were collected from a group of 25\
+    \ participants who completed the FLS tasks using a trainer box (Pyxus\xAE). Each\
+    \ participant performed the tasks five times, and their performance was evaluated\
+    \ by an expert rater."
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/iafdb
+  Description: "This database consists of endocardial recordings from the right atria\
+    \ of 8patients in atrial fibrillation or flutter. A decapolar catheter with 2-5-2mmspacing\
+    \ (7mm spacing between bipoles) was plac\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/kinecal
+  Description: A dataset for balance falls-risk assessment and balance impairment
+    analysis
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/accelerometry-walk-climb-drive
+  Description: Labeled raw accelerometry data collected during outdoor walking, stair
+    climbing, and driving for 32 healthy adults. Data were collected simultaneously
+    at four body locations left wrist, left hip, both ankles.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ludb
+  Description: ECG signal database that consists of 200 10-second 12-lead records.
+    The boundaries and peaks of P, T waves and QRS complexes were manually annotated
+    by cardiologists. Each record is annotated with the corresponding diagnosis.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ltafdb
+  Description: "This database includes 84 long-term ECG recordings of subjects with\
+    \ paroxysmalor sustained atrial fibrillation (AF). Each record contains two simultaneouslyrecorded\
+    \ ECG signals digitized at 128 Hz \u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ltmm
+  Description: The LTMM database contains 3-day 3D accelerometer recordings of 71
+    eldercommunity residents, used to study gait, stability, and fall risk.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/umwdb
+  Description: "Stride interval fluctuations were studied in ten young, healthy men.Participants\
+    \ had no history of any neuromuscular, respiratory orcardiovascular disorders,\
+    \ and were taking no medications. Mean ag\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ltstdb
+  Description: "The Long-Term ST Database contains 86 lengthy ECG recordings of 80\
+    \ humansubjects, chosen to exhibit a variety of events of ST segment changes,including\
+    \ ischemic ST episodes, axis-related non-ischem\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mssvepdb
+  Description: "Released by the Information Technologies Institute (CERTH-ITI) and\
+    \ powered byMAMEM HORIZON 2020, the MSSVEP database contains EEG recordings of\
+    \ 11 subjectsunder the stimulation of flickering lights\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mental-fnirs
+  Description: Functional near-infrared spectroscopy and transcranial doppler sonography
+    were used to measure changes in cerebral hemodynamics during cognitive stimulation.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mghdb
+  Description: "The Massachusetts General Hospital/Marquette Foundation (MGH/MF) WaveformDatabase\
+    \ is a comprehensive collection of electronic recordings of hemodynamicand electrocardiographic\
+    \ waveforms of stable a\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/music-motion-2012
+  Description: How and why does music make us move? This dataset was collected as
+    part of a project to investigate how music influences small magnitude motion observed
+    when people try to stand still.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/music-motion-2015
+  Description: How and why does music make us move? This project investigates how
+    music influences small magnitude motion observed when people try to stand still.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mimicdb
+  Description: "The MIMIC Database includes data recorded from over 90 ICU patients.\
+    \ The datain each case include signals and periodic measurements obtained from\
+    \ a bedsidemonitor as well as clinical data obtained \u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mimiciii-demo
+  Description: An open source demo of the MIMIC-III Clinical Database
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mimic3wdb
+  Description: The MIMIC-III Waveform Database contains numerous physiological signals
+    (including continuous ECG, PPG, ABP, and other signals) and periodic measurements,
+    recorded by bedside patient monitors from about 30,000 patients in intensive care
+    units.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mimic3wdb-matched
+  Description: Physiological signals (including continuous ECG, PPG, ABP, and other
+    signals) that are associated with patients in the MIMIC-III Clinical Database.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mimic-iv-demo
+  Description: An openly available subset of patients in the MIMIC-IV database.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mimic-iv-fhir-demo
+  Description: MIMIC-IV-on-FHIR is a hundred patient demo of MIMIC-IV v2.0 in the
+    Fast Healthcare Interoperability Resources(FHIR) format. MIMIC-IV-on-FHIR provides
+    implementers with a real-world FHIR datastore to aid in FHIR research and development.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mimic-iv-demo-omop
+  Description: Preliminary work to transform a MIMIC-IV demo dataset to the OMOP Common
+    Data Model
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mimic-iv-ecg-demo
+  Description: The MIMIC-IV ECG Demo module contains 659 diagnostic electrocardiograms
+    across 92 unique patients. These 92 patients overlap with the patients from the
+    MIMIC-IV Clinical Demo and are also part of the MIMIC-IV Clinical Database.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mimic-iv-ecg
+  Description: The MIMIC-IV ECG module contains approximately 800,000 diagnostic electrocardiograms
+    across nearly 160,000 unique patients. These patients overlap with the patients
+    from the MIMIC-IV Clinical Database.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mimic-iv-ed-demo
+  Description: An openly available subset of the MIMIC-IV-ED database
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mimic4wdb
+  Description: The MIMIC-IV Waveform Database collects physiological signals and measurements
+    from ICU bedside monitors. Coupled with the clinical information available in
+    MIMIC-IV, it provides a detailed view into the physiology of critically ill patients.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mitdb
+  Description: Two-channel ambulatory ECG recordings, obtained from 47 subjects studied
+    by the BIH Arrhythmia Laboratory between 1975 and 1979.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/pwave
+  Description: P-wave annotations for twelve signals from the MIT-BIH Arrhythmia Database.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/afdb
+  Description: This database includes 25 long-term ECG recordings of human subjects
+    withatrial fibrillation (mostly paroxysmal).
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/cdb
+  Description: This database contains 168 short ECG recordings (20.48 seconds each)
+    selectedto pose a variety of challenges for ECG compressors, in particular for
+    lossycompression methods.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ltdb
+  Description: This database contains 7 long-term ECG recordings (14 to 22 hours each),
+    withmanually reviewed beat annotations.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/vfdb
+  Description: This database includes 22 half-hour ECG recordings of subjects who
+    experiencedepisodes of sustained ventricular tachycardia, ventricular flutter,
+    andventricular fibrillation.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/nstdb
+  Description: "This database includes 12 half-hour ECG recordings and 3 half-hour\
+    \ recordingsof noise typical in ambulatory ECG recordings. The noise recordings\
+    \ were madeusing physically active volunteers and stan\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/nsrdb
+  Description: Long-term ECG recordings of 18 subjects referred to the Arrhythmia
+    Laboratory at Boston's Beth Israel Hospital.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/slpdb
+  Description: Recordings of multiple physiologic signals during sleep, collected
+    from 18 subjects monitored at Boston's Beth Israel Hospital Sleep Laboratory.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/stdb
+  Description: Twenty eight ECG recordings of varying lengths, most of which were
+    recorded during exercise stress tests and which exhibit transient ST depression.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/svdb
+  Description: This database includes 78 half-hour ECG recordings chosen to supplement
+    theexamples of supraventricular arrhythmias in the MIT-BIH Arrhythmia Database.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mmgdb
+  Description: Uterine magnetomyographic signals from 25 subjects recorded using a
+    151 channel Reproductive Assessment system.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/plantar
+  Description: Plantar pressure distribution and muscle activity during gait from
+    20 healthy male adults.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/sleep-accel
+  Description: Motion data and heart rate measurements from Apple Watches from sleeping
+    people undergoing polysomnography.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/macecgdb
+  Description: Short duration ECG signals are recorded from a healthy 25-year-old
+    maleperforming different physical activities to study the effect of motionartifacts
+    on ECG signals and their sparsity.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/motion-artifact
+  Description: Examples of functional near-infrared spectroscopy and electroencephalogram
+    recordings that have been created for evaluating artifact removal methods.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mmash
+  Description: Multilevel Monitoring of Activity and Sleep in Healthy people (MMASH)
+    dataset provides 24 hours of continuous beat-to-beat heart data, triaxal accelerometer
+    data, sleep quality, physical activity, psychological characteristics and salivary
+    samples.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/nqmitcsxpd
+  Description: Keystroke logs collected from 85 subjects with and without Parkinson's
+    disease.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ninfea
+  Description: Open dataset featuring non-invasive electrophysiological recordings,
+    fetal pulsed-wave Doppler and maternal respiration signals. It provides a ground
+    truth on the fetal heart activity when an invasive scalp lead is unavailable.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/nesfdb
+  Description: Postural sway measurements for 27 healthy young and elderly volunteers.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/noneeg
+  Description: Non-EEG physiological signals collected using non-invasive wrist worn
+    biosensors and consists of electrodermal activity, temperature, acceleration,
+    heart rate, and arterial oxygen level.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/nifeadb
+  Description: "Fetal cardiac arrhythmias are defined as any irregular fetal cardiac\
+    \ rhythm orregular rhythm at a rate outside the reference range of 100 to 200\
+    \ beat perminute (bpm). Arrhythmias are discovered in \u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/nifecgdb
+  Description: Fifty-five multichannel abdominal non-invasive fetal electrocardiogram
+    recordings, taken from a single subject between 21 to 40 weeks of pregnancy.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/nsr2db
+  Description: Beat annotation files for 54 long-term ECG recordings of subjects in
+    normal sinus rhythm.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/norwegian-athlete-ecg
+  Description: This project contains 28 ECGs from 28 healthy elite athletes. The ECGs
+    have been interpreted by the Marquette SL12 (version 23) algorithm and a Cardiologist
+    using the International Criteria for ECG interpretation (2018).
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ob1db
+  Description: "This project is developing a set of recordings of fetal scalp electrograms\
+    \ anduterine muscular activity, with beat-by-beat annotations of the fetal ECG,\
+    \ tosupport studies of fetal heart rate variab\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/hd-semg
+  Description: We provide an open access dataset of High Density Surface Electromyogram
+    (HD-sEMG). Our dataset can be used for both hand gesture classification-based
+    neuroprosthetic control and EMG-force regression based proportional neuroprosthetic
+    control.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/afpdb
+  Description: ECG recordings created for use in the Computers in Cardiology Challenge
+    2001, a competition with the goal of developing automated methods for predicting
+    paroxysmal atrial fibrillation.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/patient-level-data-covid-ms
+  Description: This dataset is part of the Global Data Sharing Initiative. The data
+    was acquired by people with MS and clinicians using a fast data entry tool. The
+    dataset includes demographics, comorbidities and hospital stay and COVID-19 symptoms
+    of PwMS.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/osv
+  Description: This database contains one hour oxygen saturation measurements of 36
+    patients,used for the analysis of oxygen saturation variability.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/phdsm
+  Description: Conductivity and relative permittivity of healthy and diseased skeletal
+    muscle.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/prcp
+  Description: A collection of physiological signals in ten healthy subjects in response
+    to aslow tilt, a fast tilt, and a standing-up maneuver.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/physiozoo
+  Description: PhysioZoo is a collaborative platform dedicated to the study of the
+    heart rate variability in electrophysiological recordings from mammals
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/szdb
+  Description: This database contains "post-ictal heart rate oscillations in a heterogeneousgroup
+    of patients with partial epilepsy.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/pressure-flow-circum-cpap
+  Description: Dataset of pressure, flow, and dynamic abdominal and chest circumference
+    for healthy people breathing with CPAP. Data was collected with PEEP settings
+    of 0 (ZEEP), 4, and 8cmH2O at normal/resting, panting/short and deep/long breath
+    patterns/rates.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/picsdb
+  Description: ECG and respiration recordings of ten preterm infants collected from
+    a Neonatal Intensive Care Unit.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ptbdb
+  Description: ECGs obtained from 290 subjects using a non-commercial, prototype recorder
+    developed at Physikalisch-Technische Bundesanstalt.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ptb-xl-plus
+  Description: ECG feature dataset accompanying the PTB-XL ECG dataset
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ptb-xl
+  Description: The PTB-XL ECG dataset is a large dataset of 21801 clinical 12-lead
+    ECGs from 18869 patients of 10 second length. The raw signal data has been annotated
+    by up to two cardiologists with 71 different ECG statements and is supplemented
+    by rich metadata.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/eda-rest-sedation
+  Description: This database of pulse times and amplitudes from electrodermal activity
+    was collected from 11 healthy volunteer subjects who were awake and at rest and
+    11 (different) healthy volunteer subjects who were under controlled propofol sedation.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/pulse-transit-time-ppg
+  Description: "Time synchronised multi-site PPG dataset for PTT including sensors\u2019\
+    \ attachment pressures, temperatures, inertial data from accelerometer and gyroscope,\
+    \ annotated ECG data, blood pressures, as well as blood oxygenation saturation\
+    \ levels (SpO2)"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/q-pain
+  Description: Q-Pain, a medical QA dataset designed to enable the substitution of
+    multiple different racial and gender "profiles" for patients and to evaluate whether
+    bias is present when deciding whether to prescribe pain medication or not.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/qtdb
+  Description: One hundred two-lead ECG recordings, many extracted from other databases,
+    with onset, peak, and end markers for P, QRS, T, and U waves.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/qde
+  Description: Quantitative estimation of dehydration (total body water loss) usingbioimpedance
+    measurements, temperature measurements, salivary samples, andsweat samples.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/excluded
+  Description: The recordings in this collection were originally selected for inclusion
+    inthe MIT-BIH Normal Sinus Rhythm Database, but were excluded after studyrevealed
+    low-grade arrhythmias.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/respiratory-dataset
+  Description: Outlined is a pressure, flow, volume, dynamic circumference, and EIT
+    assessed aeration dataset from resting breathing with REO at increasing CPAP PEEP
+    settings. Vapers, asthmatics, smokers, and otherwise healthy people were included
+    in the trial.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/rvmh1
+  Description: "Functional metrics of autonomic control of heart rate, including baroreflexsensitivity,\
+    \ have been shown to be strongly associated with cardiovascularrisk. A decrease\
+    \ in baroreflex sensitivity with \u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/rr-interval-healthy-subjects
+  Description: This database contains RR intervals time series from healthy subjects
+    aged between 1month and 55 years
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/inipdmsa
+  Description: Dataset collected as part of a study that aimed to determine the effects
+    of intranasal insulin on cognition and motor performance in Parkinson's disease.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/images
+  Description: "These magnetic resonance angiography (MRA) images show coronal slices\
+    \ acquiredfrom consecutive anteroposterior positions within the torso. The study\
+    \ wasperformed on a 1.5T General Electric (GE) Sig\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/santa-fe
+  Description: "This is a multivariate data set recorded from a patient in the sleeplaboratory\
+    \ of the Beth Israel Hospital (now the Beth Israel Deaconess MedicalCenter) in\
+    \ Boston, Massachusetts. This data set was \u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/scg-rhc-wearable-database
+  Description: This is the first public dataset that contains simultaneous recordings
+    of Right Heart Catheter data (pressure) and chest-worn wearable patch data (electrocardiogram
+    and seismocardiogram signals).
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/scientisst-move-biosignals
+  Description: Multimodal (ECG, EMG, EDA, PPG, TEMP, ACC) biosignal dataset of everyday
+    activities. Created with 3 wearable devices based on ScientISST Sense and Empatica
+    E4.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/sufhsdb
+  Description: The Shiraz University (SU) fetal heart sounds database (SUFHSDB) contains
+    fetal and maternal phonocardiogram (PCG) recordings from 109 pregnant women in
+    single and twin pregnancies.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/siena-scalp-eeg
+  Description: The database consists of EEG recordings of 14 epileptic patients acquired
+    at the Unit of Neurology and Neurophysiology of the University of Siena. Subjects
+    include 9 males (ages 25-71) and 5 females (ages 20-58).
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/simfpcgdb
+  Description: This data set is a series of synthetic fetal phonocardiographic signals
+    (PCGs)relative to different fetal states and recording conditions.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/simulated-obstructive-disease
+  Description: Outlined is a pressure, flow, and volume dataset using a using a modular
+    device to simulate the effects of obstructive pulmonary disease in healthy people.
+    20 healthy subjects were included in this dataset.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/simultaneous-measurements
+  Description: "Dataset to support comparison of usability and accuracy from simultaneous\
+    \ measurements collected from 13 subjects including five devices NeXus-10 MKII,\
+    \ eMotion Faros 360\xB0, Hexoskin Hx1, SOMNOTouch NIBP, Polar RS800 Multi."
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/sleepbrl
+  Description: "The database contains 32 records of non-contact sleep monitoring by\
+    \ abioradar. The records are accompanied by results of sleep scoring, based onpolysomnography\
+    \ according to the rules of the America\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/sleep-edf
+  Description: The sleep-edf database contains whole-night PolySomnoGraphic sleep
+    recordings,containing EEG, EOG, chin EMG, and event markers.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/sleep-edfx
+  Description: "The sleep-edf database contains 197 whole-night PolySomnoGraphic sleeprecordings,\
+    \ containing EEG, EOG, chin EMG, and event markers. Some recordsalso contain respiration\
+    \ and body temperature. Corres\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/shhpsgdb
+  Description: Data collected for a prospective cohort study designed to investigate
+    the relationship between sleep disordered breathing and cardiovascular disease.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/shareedb
+  Description: Holter recordings of 139 hypertensive patients recruited at the Centre
+    of Hypertension of the University Hospital of Naples Federico II.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/mvtdb
+  Description: RR interval time series, recorded by implanted cardioverter defibrillators
+    in 78 subjects.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/sgamp
+  Description: "The SGAMP database contains single-unit neuronal recordings of North\
+    \ Atlanticsquid (Loligo pealei) giant axons in response to stimulus currents.\
+    \ Themembrane potential and stimulus current are given\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/staffiii
+  Description: "The STAFF III database was acquired during 1995-96 at Charleston Area\
+    \ MedicalCenter (WV, USA) where single prolonged balloon inflation had been introducedto\
+    \ achieve optimal results of percutaneous \u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/incartdb
+  Description: Annotated ECG recordings extracted from 32 Holter records.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/drivedb
+  Description: "This database, contributed to PhysioNet by its creator, Jennifer Healey,contains\
+    \ a collection of multiparameter recordings from healthy volunteers,taken while\
+    \ they were driving on a prescribed rout\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/ucddb
+  Description: Overnight polysomnograms with simultaneous three-channel Holter ECG,
+    from 25 adult subjects with suspected sleep-disordered breathing.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/sddb
+  Description: "PhysioNet has inaugurated a Sudden Cardiac Death Database to support\
+    \ researchand to stimulate progress in this important area of electrophysiology.\
+    \ Weinitiate this database with 23 complete Holter \u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/semg
+  Description: "The dataset is composed of long-lasting surface electromyographic\
+    \ (sEMG) signals recorded from ten muscles during ground walking of 31 young able-bodied\
+    \ subjects in Movement Analysis Lab, Universit\xE0 Politecnica delle Marche, Ancona,\
+    \ Italy."
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/tns
+  Description: Data collected for a study on a scaling analysis method used to estimate
+    long-range power-law correlation exponents in noisy signals.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/taichidb
+  Description: This project includes gait data collected with footswitches and electromyography
+    data from subjects who walked for 10 minutes under normal conditions and for 90
+    seconds under dual-task conditions (walking while performing serial subtractions).
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/tappy
+  Description: "This is the keystroke dataset for the study titled 'High-accuracy\
+    \ detection ofearly Parkinson's Disease using multiple characteristics of finger\
+    \ movementwhile typing'. This research report is curre\u2026"
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/tpehgdb
+  Description: Electrohysterogram records during regular check-ups at the University
+    Medical Centre Ljubljana between 1997 and 2005.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/tpehgt
+  Description: Electrohysterogram signals accompanied by a simultaneously recorded
+    external tocogram.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/circor-heart-sound
+  Description: A large collection of multi-location heart sound signals, with 5272
+    records collected from 1568 subjects. Heart murmurs have been annotated by a human
+    annotator based on their time, shape, pitch, grading, quality, location and location
+    intensity.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/treadmill-exercise-cardioresp
+  Description: Cardiorespiratory measurements of 992 treadmill maximal graded exercise
+    tests. Heart rate, oxygen consumption, carbon dioxide generation, and pulmonary
+    ventilation are provided.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/twadb
+  Description: Multichannel ECG records collected for the 2008 Computers In Cardiology
+    Challenge.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/cardioresp-response-orthostat
+  Description: Dataset comprising the following physiological signals blood pressure,
+    respiratory rate, blood flow velocity in the middle cerebral arteries and tissue
+    hemoglobin concentration in the prefrontal cortex.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/unicaprop
+  Description: Differential biopotential measurements recorded from the tongues of
+    39 healthy voluntary human subjects.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/videopulse
+  Description: Pulse signal recordings obtained from 15 healthy volunteers.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/maternal-visceral-adipose
+  Description: Maternal visceral adipose tissue measurements collected as part of
+    a cohort study of 154 pregnant women.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/vitaldb
+  Description: VitalDB, a high-fidelity multi-parameter vital signs database in surgical
+    patients
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/voiced
+  Description: This database includes 208 voice samples, from 150 pathological, and
+    58healthy voices.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/wearable-exercise-frailty
+  Description: A data collection contains a wearable-based electrocardiogram and triaxial
+    acceleration signals of 80 elderly patients with frailty after an open-heart surgery.
+    The signals were collected while the patients were performing a series of exercise
+    tests.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/calcium-imaging-sleep-state
+  Description: Wide-field calcium imaging database that consists of annotated sleep
+    recording collected from transgenic mice at Washington University of St Louis
+    School of Medicine.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/wctecgdb
+  Description: Wilson Central Terminal ECG signals recorded from 92 patients.
+  Region: us-east-1
+  Type: S3 Bucket
+- ARN: arn:aws:s3:::physionet-pds/wrist
+  Description: Photoplethysmogram recorded from 8 volunteers during walking, running
+    and bike riding.
+  Region: us-east-1
+  Type: S3 Bucket
+Tags:
+- aws-pds
+- life sciences
+- fetal
+- ecg
+- atrial fibrillation
+- challenge
+- american heart association
+- computer vision
+- inertial motion capture
+- smart walker
+- human pose estimation
+- gait and posture analysis
+- depth
+- rehabilitation
+- deep learning
+- ansi
+- standard
+- apnea
+- sleep
+- multiparameter
+- pressure
+- posture
+- gait
+- eeg
+- biometric
+- electroencephalogram
+- auditory stimuli
+- resting-state
+- blood pressure
+- age
+- cardiovascular
+- baroreflex
+- heart rate variability
+- stress
+- autonomic nervous system
+- anesthesia
+- propofol
+- electrodermal activity
+- congestive heart failure
+- chf
+- photoplethysmogram
+- biomedical engineering
+- pre-diabetes
+- biomarkers
+- hypertension
+- hemorrhage
+- intracranial
+- p wave
+- interbeat
+- rr interval
+- vasoregulation
+- brain
+- diabetes
+- perfusion-arterial spin labeling mri
+- cerebral vasoregulation
+- white matter hyperintensities
+- orthostatic hypotension
+- cerebral blood flow- transcranial doppler
+- type 2 diabetes
+- stroke
+- gait and balance
+- brain perfusion
+- inflammation
+- cerebromiscovascular disease
+- cerebral vasoreactivity
+- brain atrophy
+- perfusion mri
+- intracranial pressure
+- medication
+- seizure
+- neuroelectric
+- chest x-ray segmentation
+- medical image segmentation
+- automatic quality assesment
+- seismocardiogram
+- respiration
+- movement
+- chr
+- ppg
+- graphene
+- bioimpedance
+- peep
+- cpap
+- respiratory mechanics
+- pulmonary mechanics
+- respiratory modelling
+- cardiotocography
+- heart rate
+- concept
+- umls
+- snomed
+- ventricular fibrillation
+- short ecg fragments
+- dangerous arrhythmias
+- noise
+- imaging
+- parkinsons
+- medical informatics
+- eicu
+- open data
+- critical care
+- exposure therapy
+- psychophysiology
+- biosignals
+- anxiety disorders
+- wearable sensors
+- anxiety level detection
+- machine learning
+- stress-test
+- electrocardiogram
+- phonocardiogram
+- heart
+- accelerometer
+- aortic valve
+- mitral valve
+- brain-computer interface
+- auditory
+- deafness
+- sound
+- loudness
+- neuropathy
+- electromyogram
+- human vision
+- medical students
+- ecg interpretation
+- medical image interpretation
+- medical practice
+- medical education
+- human-computer interaction
+- eye-tracking
+- medical practitioners
+- visual expertise
+- clinical accuracy
+- receiver operating characteristic curve
+- infectious disease epidemics
+- thermography
+- fever screening
+- thermometry
+- inner canthus
+- elevated body temperature
+- facial maximum temperatures
+- infrared thermograph
+- pearson correlation coefficients
+- synthetic
+- pregnancy
+- phonocardiography
+- aging
+- neurodegeneration
+- edf
+- inter-database generalization
+- sleep staging
+- psg
+- segmentation
+- heart and lungs
+- montgomery country tb
+- mimic-cxr
+- meditation
+- stability
+- electrohysterogram
+- representation learning
+- 1 fetal heart sound 2 fhr
+- cesarean-section delivery
+- induced delivery
+- cardiac mri
+- patient monitoring
+- magnetohydrodynamic
+- mri
+- mhd
+- environmental sensing
+- thermal comfort modelling
+- physiological signals
+- occupant behaviour sensing
+- emotion sensing
+- human behavoural modelling
+- smart building
+- balance
+- posturography
+- clinical tests
+- postural sway
+- falls-risk
+- age-related changes
+- accelerometry
+- actigraph
+- accelerometers
+- walking activity
+- physical activity
+- activity monitor
+- driving activity
+- raw accelerometry data
+- activity meter
+- activity recognition
+- diagnosis
+- electrocardiography
+- delineation
+- open database
+- database
+- risk
+- stimulation
+- mgh
+- music
+- music cognition
+- health record
+- mimic
+- ehr
+- icu
+- electronic health records
+- electronic health record
+- fhir
+- omop
+- common data model
+- emergency department
+- arrhythmia
+- ectopy
+- sinus
+- normal
+- exercise
+- magnetomyography
+- polysomnography
+- artifact
+- spectroscopy
+- physiological response
+- melatonin
+- cortisol
+- circadian rhythm
+- psychological response
+- saliva
+- health
+- foetus
+- pwd
+- doppler
+- foetal ecg
+- maternal ecg
+- pwd envelope
+- non-invasive
+- cardiology
+- early pregnancy
+- antenatal
+- fecg
+- acceleration
+- temperature
+- marquettesl12
+- ge
+- cardiologist
+- athletes
+- oxygen saturation
+- oximetry
+- permittivity
+- neuromuscular disorders
+- skeletal muscle
+- anisotropy
+- heart rate variabillity
+- electrophysiology
+- mammals
+- epilepsy
+- infant
+- neonate
+- ptb-xl
+- ptb
+- sweat gland activity
+- sympathetic nervous system
+- finger
+- attachment pressure
+- ptt
+- imu
+- spo2
+- gyroscope
+- attachment force
+- pulse transit time
+- valsalva
+- rr time series
+- healthy subjects
+- from newly born to adult
+- atrophy
+- insulin
+- randomized controlled trial
+- cognitive assessment
+- motor assessment
+- image
+- angiography
+- multimodal
+- wearable
+- run
+- uncontrolled environments
+- jump
+- greet
+- lift
+- walk
+- gesticulate
+- fetal cardiography
+- phonocardiograpy
+- simulation
+- holter
+- hrv
+- bioradar
+- polysomnogram
+- neuron
+- death
+- surface emg signal
+- walking
+- biomedical signals
+- gait analysis
+- muscle recruitment
+- dual-task
+- electromyography
+- obstetrics
+- gestation
+- signal processing
+- murmur pitch
+- george b moody physionet challenge 2022
+- murmur grading
+- murmur location
+- murmur timing
+- pregnant
+- murmur shape
+- pediatric
+- murmur detection
+- murmur intensity
+- murmur quality
+- graded exercise testing
+- fitness monitoring
+- cardiorespiratory measures
+- oxygen consumption
+- cardiorespiratory fitness
+- exercise testing
+- heart rate recovery
+- taste
+- tongue
+- video
+- pulse
+- waveform
+- vitaldb
+- intraoperative
+- biosignal
+- voice
+- heart rate response
+- frailty
+- veloergometry
+- timed up and go
+- stair climbing
+- physical exercise
+- heart rate reserve
+- walk test
+- wide-field calcium imaging
+- sleep state classification
+- wilson central terminal
+- limb potential
+- unipolar lead
+UpdateFrequency: Not updated
